@@ -1,0 +1,113 @@
+body{
+    background-color: #808f85;
+}
+.container{
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+.One{
+    width: 35vw;
+    height: 26vh;
+    background-color:white;
+    padding: 15px 15px 15px 25px;
+}
+.One h2{
+    color: #2dc653;
+}
+.One h3{
+    color:#a5be00;
+}
+.One p{
+    color: #ccc;
+}
+.two{
+    
+    position: absolute;
+    width: 17.8vw;
+    height: 35vh;
+    background-color: #25a77c;
+    padding: 15px 15px 15px 25px;
+    border: 1px solid #25a77c;
+}
+.two h3{
+    color: white;
+    padding:0px 15px 15px 18px;
+}
+.two h2{
+    color: white;
+    position: absolute;
+    top: 27%;
+    left: 14%;
+}
+.two h4{
+    font-size: 15px;
+    position: absolute;
+    top: 29%;
+    left: 33%;
+    color: #ccc;
+}
+.two p{
+    position: absolute;
+    top: 45%;
+    left: 14%;
+    color: white;
+}
+
+.three{
+    overflow: hidden;
+    position: absolute;
+    left: 53%;
+    width: 17.8vw;
+    height: 40vh;
+    background-color: #19b387;
+    border: 1px solid #19b387;
+}
+.three h3{
+    color: white;
+    padding:15px 15px 15px 35px;
+}
+.three p{
+    color: white;
+    padding:0px 15px 15px 35px;
+}
+.btn{
+    position: absolute;
+    width: 70%;
+    top: 68%;
+    padding: 10px;
+    left: 18%;
+    border: 1px solid #a5be00;
+    border-radius: 5px;
+    background-color: #a5be00;
+    cursor: pointer;
+    color: white;
+}
+
+   /* responsive web */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .container{
+        left: -5%;
+    }
+
+    .One{
+        width: 50vw;
+        height: 25vh;
+    }
+    .two{
+        position: absolute;
+        width: 50vw;
+        height: 25vh;  
+    }
+    .three{
+        position: absolute;
+        width: 57vw;
+        height: 30vh;
+        margin-top: 88%;
+      left: 0%;
+        }
+  }
+  
